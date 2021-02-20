@@ -6,6 +6,7 @@ namespace ClassMethodDemo
     {
         static void Main(string[] args)
         {
+
             Customer customer1 = new Customer();
             customer1.AdiSoyadi = "Hümeyra Nur TURGUT";
             customer1.Id =1;
