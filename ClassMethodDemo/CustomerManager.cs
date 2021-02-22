@@ -11,10 +11,12 @@ namespace ClassMethodDemo
             Console.WriteLine("Müşteri başarı ile eklendi:"+ " " + customer.AdiSoyadi);
         }
 
+
         public void Delete(Customer customer)
         {
             Console.WriteLine("Müşteri adres bilgileri başarı ile silindi :" + " " + customer.MusteriAdres);
         }
+
 
         public void ToList(Customer customer)
         {
