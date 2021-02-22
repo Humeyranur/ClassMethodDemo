@@ -13,11 +13,13 @@ namespace ClassMethodDemo
             customer1.KrediPuani = 1850;
             customer1.MusteriAdres ="Kocaeli";
 
+
             Customer customer2 = new Customer();
             customer2.AdiSoyadi = "Hasan Paydaş";
             customer2.Id = 2;
             customer2.KrediPuani = 1700;
             customer2.MusteriAdres = "İstanbul";
+
 
             Customer customer3 = new Customer();
             customer3.AdiSoyadi = "Mine Demir";
@@ -25,11 +27,13 @@ namespace ClassMethodDemo
             customer3.KrediPuani = 1300;
             customer3.MusteriAdres = "Ankara";
 
+
             Customer customer4 = new Customer(); 
             customer4.AdiSoyadi = "Fatma Özsoy";
             customer4.Id = 4;
             customer4.KrediPuani = 1250;
             customer4.MusteriAdres = "Trabzon";
+
 
             CustomerManager customerManager = new CustomerManager();
 
