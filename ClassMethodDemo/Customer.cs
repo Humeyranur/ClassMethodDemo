@@ -6,6 +6,7 @@ namespace ClassMethodDemo
 {
     class Customer
     {
+
         public int Id { get; set; }
         public string AdiSoyadi { get; set; }
         public int KrediPuani { get; set; }
