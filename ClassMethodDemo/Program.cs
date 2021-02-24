@@ -13,7 +13,6 @@ namespace ClassMethodDemo
             customer1.KrediPuani = 1850;
             customer1.MusteriAdres ="Kocaeli";
 
-
             Customer customer2 = new Customer();
             customer2.AdiSoyadi = "Hasan Paydaş";
             customer2.Id = 2;
